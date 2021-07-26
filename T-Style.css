@@ -1,0 +1,51 @@
+.board {
+    @font-face {
+        font-family: 'euljiro';
+    }
+	font-family: 'euljiro';
+	font-size: 5.2rem;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+    white-space: nowrap;
+
+	
+	width: 420px;
+	height: 70px;
+	padding: 25px;
+	overflow: hidden;
+	color: rgb(0, 0, 0);
+	border: none;
+	background: rgba(240, 231, 215, 0)
+	
+	&:focus {
+		outline: 0px;}
+	
+	u {
+		color: rgba(255, 221, 0, 0);
+		text-underline-position: under;
+	}
+}
+    
+
+body {
+	background: url(background.png); center / height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+@font-face {
+    font-family: 'BMEULJIRO';
+    src: url('/path-to/BMEULJIRO.woff2') format('woff2'),
+         url('/path-to/BMEULJIRO.woff') format('woff'),
+         url('/path-to/BMEULJIRO.ttf')  format('truetype');
+  }
+  
+  body {
+    font-family: 'BMEULJIRO', sans-serif;
+  }

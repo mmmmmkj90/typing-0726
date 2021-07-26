@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'BMEULJIRO';
+  src: url('/path-to/BMEULJIRO.woff2') format('woff2'),
+       url('/path-to/BMEULJIRO.woff') format('woff'),
+       url('/path-to/BMEULJIRO.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'BMEULJIRO', sans-serif;
+}
