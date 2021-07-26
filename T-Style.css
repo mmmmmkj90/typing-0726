@@ -1,14 +1,14 @@
 .board {
     @font-face {
-        font-family: 'euljiro';
+        font-family: 'BMEULJIRO';
     }
-	font-family: 'euljiro';
+	font-family: 'BMEULJIRO';
 	font-size: 5.2rem;
 	letter-spacing: .15em;
 	text-transform: uppercase;
     white-space: nowrap;
+    outline-style: none;
 
-	
 	width: 420px;
 	height: 70px;
 	padding: 25px;
@@ -16,19 +16,10 @@
 	color: rgb(0, 0, 0);
 	border: none;
 	background: rgba(240, 231, 215, 0)
-	
-	&:focus {
-		outline: 0px;}
-	
-	u {
-		color: rgba(255, 221, 0, 0);
-		text-underline-position: under;
-	}
 }
-    
 
 body {
-	background: url(background.png); center / height: 100%;
+	background: url(background.png); height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
